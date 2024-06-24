@@ -29,8 +29,8 @@
  ### [Máquina Cartesi](https://github.com/Calindra/cartesi-concepts/wiki#maquina-cartesi)
  A Máquina Cartesi é uma máquina virtual que executa um sistema operacional Linux completo, no qual o backend de um dApp é executado. Ela é baseada na ISA RISC-V, um conjunto de instruções para processadores. Opera de forma isolada, o que significa que funciona de maneira independente e é reproduzível.
 
-Central nos Cartesi Rollups está a Cartesi Machine, uma máquina virtual projetada para realizar cálculos off-chain para aplicações blockchain. Quando examinada em um nível elevado de 
-abstração, a Cartesi Machine apresenta as seguintes características:
+Considerada peça central nos Cartesi Rollups, a Máquina Cartesi foi projetada para realizar cálculos off-chain para aplicações blockchain. Quando examinada em um nível elevado de 
+abstração, a Máquina Cartesi apresenta as seguintes características:
 
 - Execução de código: O código é executado com base em entradas específicas para realizar cálculos, processar dados ou executar lógica personalizada, dependendo dos requisitos da tarefa em questão.
 
