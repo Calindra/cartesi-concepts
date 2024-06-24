@@ -26,5 +26,26 @@
 
  2 - Optimistic Rollups (ORs), que utilizam provas de fraude.
 
+ ### [Máquina Cartesi](https://github.com/Calindra/cartesi-concepts/wiki#maquina-cartesi)
+ A Máquina Cartesi é uma máquina virtual que executa um sistema operacional Linux completo, no qual o backend de um dApp é executado. Ela é baseada na ISA RISC-V, um conjunto de instruções para processadores. Opera de forma isolada, o que significa que funciona de maneira independente e é reproduzível.
+
+Central nos Cartesi Rollups está a Cartesi Machine, uma máquina virtual projetada para realizar cálculos off-chain para aplicações blockchain. Quando examinada em um nível elevado de 
+abstração, a Cartesi Machine apresenta as seguintes características:
+
+- Execução de código: O código é executado com base em entradas específicas para realizar cálculos, processar dados ou executar lógica personalizada, dependendo dos requisitos da tarefa em questão.
+
+- Abstração da infraestrutura: A infraestrutura subjacente é abstraída, permitindo que você se concentre na escrita de código sem se preocupar com a gestão de servidores, hardware ou recursos de rede.
+
+- Flexibilidade em linguagens de programação e bibliotecas: Você tem flexibilidade na escolha de linguagens de programação e todas as bibliotecas open-source disponíveis no Linux.
+
+A Máquina Cartesi é uma máquina de estados que permanece ociosa até surgir uma nova solicitação. O conceito de estado, neste caso, está vinculado tanto às solicitações de entrada que a Máquina Cartesi recebe quanto à execução das instruções RISC-V que a máquina segue no processamento dessas solicitações. A Máquina Cartesi lida com:
+
+- Estados discretos: As instruções RISC-V são executadas passo a passo, transitando de um estado para outro.
+
+- Transições de estado: As transições de estado ocorrem de forma determinística à medida que o emulador processa essas instruções RISC-V, alterando o estado do sistema para um novo estado discreto.
+
+- Determinismo: Dado o mesmo estado inicial e entrada, a Máquina Cartesi sempre produzirá a mesma saída e estado final para garantir que os cálculos off-chain possam ser verificados e concordados.
+
+- A Máquina Cartesi é autocontida e não pode fazer uma solicitação externa. Para alcançar a reprodução, ela opera isoladamente de qualquer influência externa sobre o cálculo.
 
 ## [Arquitetura](https://github.com/Calindra/cartesi-concepts/wiki/Arquitetura)
