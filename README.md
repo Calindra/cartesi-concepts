@@ -7,3 +7,5 @@
 
 
 ## [Arquitetura](https://github.com/Calindra/cartesi-concepts/wiki#arquitetura)
+
+## [Lambada e/ou Co-processor](./lambada-co-processors.md)
