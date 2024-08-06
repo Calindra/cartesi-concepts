@@ -17,3 +17,5 @@ Aqui o Co-founder do EigenLayer critica o merged mining do bitcoin
 [AVS Docs](https://docs.eigenlayer.xyz/eigenlayer/avs-guides/incredible-squaring#incredible-squaring-avs-lifecycle-flow)
 
 [AVS Video](https://www.loom.com/share/50314b3ec0f34e2ba386d45724602d76?sid=9d68d8cb-d2d5-4123-bd06-776de2076de0)
+
+[Vitalik Don't overload Ethereum's consensus](./vitalik/dont_overload.md)
