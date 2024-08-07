@@ -2,6 +2,8 @@
 
 É uma iniciativa do Carsten.
 
+[Lambada](https://governance.cartesi.io/t/cartesi-lambada-a-worse-is-better-initiative/328)
+
 [Tarefas](https://docs.google.com/document/d/1NFGr5Yig0jbZ1s9vI4GjUUHVGpdJlcuQSD2OL7Vlbfc/edit)
 
 [Git Repo](https://github.com/zippiehq/cartesi-lambada-coprocessor)
