@@ -99,3 +99,11 @@ Ethereum Block Hash: 0xc6bad35add9f93184fd415062916deababef0e5f9bbcb0f95bff04716
 Local compute job matches output of co-processor, result CID bafybeiazn5kumldqbfyi3leh4rfwo625a76fq3irrip3yljpzlhwropkpy output file hash: b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9
 output file contents: hello world
 ```
+
+[Co-processor output](./lambada-co-processor/co-processor-output.md)
+
+To remove exited containers from docker
+
+```bash
+docker rm $(docker ps -aq -f "status=exited")
+```
